@@ -1,6 +1,8 @@
 {
   "defaultImage" : "https://www.dkit.ie/assets/uploads/DkIT%20Turbine%201.jpg",
   "api"          : {
-    "getProducts" : "http://localhost/forSebReact/php/products.php"
+    "getProducts" : "http://localhost/CA2-TEST/php/products.php"
+
+    
   }
 }

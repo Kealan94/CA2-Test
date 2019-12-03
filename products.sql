@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `seb_products`
+-- Database: `kealanreact`
 --
 
 -- --------------------------------------------------------
@@ -41,7 +41,7 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `price`, `description`, `image_href`) VALUES
-(1, 'Example Product 1', 99.99, 'This is a description of product 1. This is a description of product 1. This is a description of product 1. This is a description of product 1. This is a description of product 1. This is a description of product 1. This is a description of product 1.', ''),
+(1, 'Example Product 1', 99.99, 'This is a description of product 1. This is a description of product 1. This is a description of product 1. This is a description of product 1. This is a description of product 1. This is a description of product 1. This is a description of product 1. \r\n', "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.magictricks.com%2Fassets%2Fimages%2Ftrickspix%2Fairbornecokecan2.jpg&imgrefurl=https%3A%2F%2Fwww.magictricks.com%2Fairborne-coke-can.html&docid=uXsv_xy7tr09gM&tbnid=cG9wS8USpWBhVM%3A&vet=10ahUKEwjuvL_G2ZbmAhWbiFwKHaQMCr4QMwh7KAYwBg..i&w=350&h=350&bih=939&biw=1680&q=can%20of%20coke&ved=0ahUKEwjuvL_G2ZbmAhWbiFwKHaQMCr4QMwh7KAYwBg&iact=mrc&uact=8"),
 (2, 'Example Product 2', 155.00, 'This is a description of product 2. This is a description of product 2. This is a description of product 2. This is a description of product 2. This is a description of product 2. This is a description of product 2. This is a description of product 2. This is a description of product 2. This is a description of product 2. \r\n', 'https://www.dkit.ie/assets/uploads/DkIT%20Funding%20.jpg');
 
 --
