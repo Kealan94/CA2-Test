@@ -5,7 +5,7 @@ class Producttable extends React.Component {
 
   render() {
     return (
-      <Table striped bordered hover variant="dark">
+      <Table striped bordered hover size="sm">
       <thead>
         <tr>
           <th>#</th>
