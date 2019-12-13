@@ -1,7 +1,6 @@
 import React        from 'react';
 import ProductsList from './ProductList';
 import Header       from './Header';
-import TryTable     from './TryTable';
 import Footer       from './Footer';
 import Cart         from '../lib/Cart';
 import Stripe       from './Stripe';
@@ -22,7 +21,6 @@ class App extends React.Component {
         <Header cart={this.state.cart} />
         <ProductsList cart={this.state.cart} />
         <Stripe />   
-        <TryTable />
         <Footer />
        
       </div>
