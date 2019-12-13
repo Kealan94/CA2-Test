@@ -1,11 +1,11 @@
 import React    from 'react';
-import Table from 'react-bootstrap/table'; 
+import Table from 'react-bootstrap/Table'; 
 
 class Producttable extends React.Component {
 
   render() {
     return (
-      <Table striped bordered hover size="sm">
+      <Table striped bordered hover>
       <thead>
         <tr>
           <th>#</th>
@@ -38,6 +38,4 @@ class Producttable extends React.Component {
   }
 
 }
-
-
 export default Producttable;
