@@ -7,7 +7,7 @@ class Header extends React.Component {
     return (
       <div className='jumbotron'>
         <h1 className='display-4'>Drinks Shop</h1>
-        <p>Come in for a drink</p>
+        <p>We offer a wide range of drinks</p>
         <ViewCart cart={this.props.cart} />
       </div>
     );
