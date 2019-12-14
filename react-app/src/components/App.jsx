@@ -5,6 +5,7 @@ import Footer       from './Footer';
 import Cart         from '../lib/Cart';
 import Stripe       from './Stripe';
  
+ 
 
 
 class App extends React.Component {
@@ -23,6 +24,7 @@ class App extends React.Component {
         <ProductsList cart={this.state.cart} />
         <Stripe />   
         <Footer />
+ 
  
        
       </div>
