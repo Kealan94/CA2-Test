@@ -1,5 +1,4 @@
 import React    from 'react';
-import ViewCart from './ViewCart';
  
 
 class Table extends React.Component {
