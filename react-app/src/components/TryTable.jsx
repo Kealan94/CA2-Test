@@ -1,5 +1,5 @@
 import React    from 'react';
-import Table from 'react-bootstrap/Table';
+import TryTable from 'react-bootstrap/Table';
 
 class TryTable extends React.Component {
 
