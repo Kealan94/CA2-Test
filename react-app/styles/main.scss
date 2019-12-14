@@ -1,3 +1,4 @@
-body{
-    background-color: salmon;
+@import "partials/variables";
+h1{
+    color: $base-color;
 }
