@@ -1,11 +1,12 @@
 import React    from 'react';
+import ViewCart from './ViewCart';
  
 
-class Tables extends React.Component {
+class Tabler extends React.Component {
 
   render() {
     return (
-      <Table striped bordered hover>
+      <Tables striped bordered hover>
       <thead>
         <tr>
           <th>#</th>
@@ -33,10 +34,10 @@ class Tables extends React.Component {
           <td>@twitter</td>
         </tr>
       </tbody>
-    </Table>
+    </Tables>
     );
   }
 
 }
 
-export default Table;
+export default Tables;
