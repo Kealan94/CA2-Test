@@ -1,13 +1,15 @@
 h1 {
   color: #200aeb;
 }
-
+header{
+  color: crimson;
+}
 body {
-  background-color: black;
+  background-color: red;
 }
 
-h2 {
-  color: chocolate;
+::backdrop {
+  color: rgb(171, 14, 233);
 }
 
 h3 {
