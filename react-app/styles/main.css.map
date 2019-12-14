@@ -1,9 +1,8 @@
 {
     "version": 3,
-    "mappings": "AACA,AAAA,EAAE,CAAA;EACE,KAAK,ECFI,OAAO;CDGnB",
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,MAAM;CAC3B",
     "sources": [
-        "main.scss",
-        "partials/_variables.scss"
+        "main.scss"
     ],
     "names": [],
     "file": "main.css"
