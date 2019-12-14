@@ -1,7 +1,7 @@
 import React    from 'react';
-import TryTable from 'react-bootstrap/Table';
+import Table from 'react-bootstrap/Table';
 
-class TryTable extends React.Component {
+class Tables extends React.Component {
 
   render() {
     return (
@@ -39,4 +39,4 @@ class TryTable extends React.Component {
 
 }
 
-export default TryTable;
+export default Table;

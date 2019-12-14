@@ -28,7 +28,6 @@ class Product extends React.Component {
               <ul>{this.props.product.description.split("\n").map(each => (
                 <li>{each}</li>
               ))}</ul>
-              <p className='card-text'>{this.props.product.description}</p>
               <AddToCartButton product={this.props.product} cart={this.props.cart} />
             </div>
           </div>
