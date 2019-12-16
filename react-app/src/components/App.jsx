@@ -4,15 +4,11 @@ import Header       from './Header';
 import Footer       from './Footer';
 import Cart         from '../lib/Cart';
 import Stripe       from './Stripe';
-import  TheTable    from './TheTable';
-
- 
-
+import Dropdown     from './Dropdown';
+import Tabs    from './ComponentNew';
  
  
  
-
-
 class App extends React.Component {
 
   // Note the cart object is just a vanilla JS
@@ -28,8 +24,10 @@ class App extends React.Component {
         <Header cart={this.state.cart} />
         <ProductsList cart={this.state.cart} />
         <Stripe />
-        <TheTable />
         <Footer />
+        <Dropdown />
+        <Tabs />
+ 
  
  
       </div>
