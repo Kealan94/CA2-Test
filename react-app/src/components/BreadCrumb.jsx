@@ -1,5 +1,5 @@
 import React    from 'react';
-import Breadcrumb from 'react-bootstrap/Breadcrumb'
+import BreadCrumb from 'react-bootstrap/Breadcrumb'
 
 class Breadcrumb extends React.Component {
 
@@ -17,4 +17,4 @@ class Breadcrumb extends React.Component {
 
 }
 
-export default Breadcrumb;
+export default BreadCrumb;
