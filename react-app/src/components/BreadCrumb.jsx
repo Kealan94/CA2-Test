@@ -5,9 +5,13 @@ class Breadcrumb extends React.Component {
 
   render() {
     return (
-      <div className='jumbotron'>
-        <p>We offer a wide range of drinks</p>
-      </div>
+        <Breadcrumb>
+        <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
+        <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
+          Library
+        </Breadcrumb.Item>
+        <Breadcrumb.Item active>Data</Breadcrumb.Item>
+      </Breadcrumb>
     );
   }
 
