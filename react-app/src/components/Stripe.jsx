@@ -1,5 +1,5 @@
 import React    from 'react';
-import StripeCheckout from 'react-stripe-checkout';
+import StripeCheckout from '../../node modules/react-stripe-checkout';
 
 class Stripe extends React.Component {
 
