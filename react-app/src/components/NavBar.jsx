@@ -10,7 +10,6 @@ class NavBar extends React.Component {
         // XHR, fetch, or a GraphQL mutation is typical.
       };
   
-
       render() {
         return (
           <Navbar></Navbar>
