@@ -1,5 +1,7 @@
 h1 {
   color: #c6538c;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
 }
 
 body {
@@ -8,6 +10,7 @@ body {
 
 h2 {
   color: chocolate;
+
 }
 
 h3 {
