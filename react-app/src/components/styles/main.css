@@ -5,7 +5,7 @@ h1 {
 }
 
 body {
-  background-color:brown;
+  background-color:gray;
 }
 
 h2 {
@@ -17,7 +17,7 @@ h3 {
   color: red;
 }
 .card-body{
-  background-color:darkcyan;
+  background-color:lightgreen;
 }
 
 
