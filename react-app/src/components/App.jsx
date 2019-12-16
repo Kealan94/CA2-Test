@@ -5,6 +5,7 @@ import Footer       from './Footer';
 import Cart         from '../lib/Cart';
 import Stripe       from './Stripe';
 import Form         from './Form';
+import NutritionForm from './NutritionForm';
  
  
 
@@ -26,6 +27,7 @@ class App extends React.Component {
         <Stripe />   
         <Footer />
         <Form   />
+        <NutritionForm  />
  
  
        

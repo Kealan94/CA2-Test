@@ -212,7 +212,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function EnhancedTable() {
+export default function NutritionForm() {
   const classes = useStyles();
   const [order, setOrder] = React.useState('asc');
   const [orderBy, setOrderBy] = React.useState('calories');
@@ -349,5 +349,6 @@ export default function EnhancedTable() {
         label="Dense padding"
       />
     </div>
-  );
-}
+ 		);
+	}
+ 
