@@ -4,6 +4,8 @@ import Header       from './Header';
 import Footer       from './Footer';
 import Stripe       from './Stripe';
 import Cart         from '../lib/Cart';
+import Dropdown        from './Dropdown';
+
 
 class App extends React.Component {
 
@@ -21,7 +23,7 @@ class App extends React.Component {
         <ProductsList cart={this.state.cart} />
         <Stripe />
         <center><h1>Be safe please don't drink and drive.</h1></center>
-
+        <Dropdown />
         <Footer />
        
       </div>
