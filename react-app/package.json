@@ -6,6 +6,7 @@
     "@lit-element-bootstrap/breadcrumb": "^1.0.1",
     "node-sass": "^4.13.0",
     "react": "^16.11.0",
+    "react-bootstrap-carousel": "^4.0.1",
     "react-bootstrap-tab": "^2.6.6",
     "react-bootstrap-table": "^4.3.1",
     "react-dom": "^16.11.0",
