@@ -6,6 +6,7 @@ import Cart         from '../lib/Cart';
 import Stripe       from './Stripe';
 import Form         from './Form';
 import Dropdown     from './Dropdown';
+import Table        from './Table';
  
  
  
@@ -28,6 +29,7 @@ class App extends React.Component {
         <Stripe />   
         <Footer />
        <Dropdown />
+       <Table  />
 
        
       </div>

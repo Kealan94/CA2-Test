@@ -1,7 +1,8 @@
 import React    from 'react';
+import ReactDOM from 'react-dom';
  
 
-class Tables extends React.Component {
+class Table extends React.Component {
 
   render() {
     return (
