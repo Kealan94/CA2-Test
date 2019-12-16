@@ -1,7 +1,6 @@
 import React    from 'react';
 import Tabs from 'react-bootstrap/tab'
  
-import React, { useState } from 'react';
 import {
   Collapse,
   Navbar,
