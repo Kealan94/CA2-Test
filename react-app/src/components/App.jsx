@@ -5,7 +5,7 @@ import Footer       from './Footer';
 import Cart         from '../lib/Cart';
 import Stripe       from './Stripe';
 import Form         from './Form';
-import Message      from './Message';
+import Dropdown     from './Dropdown';
  
  
  
@@ -27,9 +27,8 @@ class App extends React.Component {
         <ProductsList cart={this.state.cart} />
         <Stripe />   
         <Footer />
-        <Form   />
-       <Message  />
- 
+       <Dropdown />
+
        
       </div>
     );
