@@ -5,7 +5,8 @@ import Footer       from './Footer';
 import Cart         from '../lib/Cart';
 import Stripe       from './Stripe';
 import Form         from './Form';
-import SpanningTable from './SpanningTable';
+import Navbar       from './NavBar';
+ 
  
  
 
@@ -27,9 +28,7 @@ class App extends React.Component {
         <Stripe />   
         <Footer />
         <Form   />
-        <SpanningTable  />
- 
- 
+        <Navbar />
        
       </div>
     );
