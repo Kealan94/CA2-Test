@@ -1,18 +1,13 @@
-import React        from 'react';
+import React from 'react';
 import ProductsList from './ProductList';
-import Header       from './Header';
-import Footer       from './Footer';
-import Cart         from '../lib/Cart';
-import Stripe       from './Stripe';
-import Form         from './Form';
-import Dropdown     from './Dropdown';
-import Dropdownnew     from './Dropdownnew';
- 
+import Header from './Header';
+import Footer from './Footer';
+import Cart from '../lib/Cart';
+import Stripe from './Stripe';
+import Form from './Form';
+import Dropdown from './Dropdown';
 
 
- 
- 
- 
 
 
 class App extends React.Component {
@@ -20,7 +15,7 @@ class App extends React.Component {
   // Note the cart object is just a vanilla JS
   // custom type (see lib/Cart.js)
   state = {
-    cart : new Cart()
+    cart: new Cart()
   }
 
   // Render
@@ -29,13 +24,10 @@ class App extends React.Component {
       <div className='App'>
         <Header cart={this.state.cart} />
         <ProductsList cart={this.state.cart} />
-        <Stripe />   
+        <Stripe />
         <Footer />
-       <Dropdown />
-     <Dropdownnew />
- 
+        <Dropdown />
 
-       
       </div>
     );
   }
