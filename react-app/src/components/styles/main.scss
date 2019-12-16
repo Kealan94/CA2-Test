@@ -5,11 +5,12 @@ h1{
 }
 
 body{
-    background-color: black;
+    color: green;
 }
 
 h2{
-    color: chocolate;
+    color:blue($color: #000000);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h3{
