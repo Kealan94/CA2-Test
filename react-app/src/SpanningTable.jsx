@@ -93,3 +93,4 @@ export default function SpanningTable() {
     </TableContainer>
   );
 }
+ export default SpanningTable;
