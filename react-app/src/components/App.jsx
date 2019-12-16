@@ -4,7 +4,7 @@ import Header       from './Header';
 import Footer       from './Footer';
 import Cart         from '../lib/Cart';
 import Stripe       from './Stripe';
-import BreadCrumb     from './BreadCrumb';
+import  TheTable    from './TheTable';
 
  
 
@@ -28,8 +28,9 @@ class App extends React.Component {
         <Header cart={this.state.cart} />
         <ProductsList cart={this.state.cart} />
         <Stripe />
+        <TheTable />
         <Footer />
-        <BreadCrumb />
+ 
  
       </div>
     );
