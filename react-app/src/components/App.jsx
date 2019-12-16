@@ -1,23 +1,14 @@
 import React from 'react';
 import ProductsList from './ProductList';
-<<<<<<< HEAD
 import Header       from './Header';
 import Footer       from './Footer';
 import Cart         from '../lib/Cart';
 import Stripe       from './Stripe';
- 
- 
- 
-=======
-import Header from './Header';
-import Footer from './Footer';
-import Cart from '../lib/Cart';
-import Stripe from './Stripe';
-import Form from './Form';
-import Dropdown from './Dropdown';
+import NewTable      from './NewTable';
 
-
->>>>>>> 213d0844ac8fff621cb93e5d4d38948fbe56aaa5
+ 
+ 
+ 
 
 
 class App extends React.Component {
@@ -36,15 +27,7 @@ class App extends React.Component {
         <ProductsList cart={this.state.cart} />
         <Stripe />
         <Footer />
-<<<<<<< HEAD
- 
- 
- 
-       
-=======
-        <Dropdown />
-
->>>>>>> 213d0844ac8fff621cb93e5d4d38948fbe56aaa5
+        <NewTable />
       </div>
     );
   }
