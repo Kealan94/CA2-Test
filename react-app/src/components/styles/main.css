@@ -1,37 +1,43 @@
-h1 {
-  color: #200aeb;
+body Table {
+  background-color: #ff0022;
 }
-header{
-  color: crimson;
-  color: #c6538c;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: large;
+
+body h1 {
+  color: rgba(236, 114, 15, 0.911);
+  font-family: 'Gelasio', serif;
 }
+
+
+
 body {
-  background-color: red;
-}
-
-::backdrop {
-  color: rgb(171, 14, 233);
-  background-color:gray;
-}
-
-h2 {
-  color: chocolate;
-
-}
-
-h3 {
-  color: red;
-}
-.card-body{
-  background-color:lightgreen;
+  background-color: lightblue;
 }
 
 
-Footer {
-color: black;
+body Table h1 {
+  color: rgba(22, 236, 15, 0.911);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+  color: blue;
+  font-size: 30px;
+}
 
+.card-header {
+  color: orangered;
+}
+
+.row {
+  color: green;
+}
+
+.card-body {
+  background-color: burlywood;
+}
+
+Footer p {
+  color: wheat;
+}
+/*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
